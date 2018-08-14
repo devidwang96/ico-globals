@@ -1,9 +1,33 @@
 <head>
     <title>ICO Globals</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="node_modules/timepicker/jquery.timepicker.min.js"></script>
+
+    <script src="node_modules/qrcode-generator/qrcode.js"></script>
+
+    <link rel="stylesheet" href="fonts/Lato/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Roboto/stylesheet.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="node_modules/timepicker/jquery.timepicker.min.css">
+
+    <link rel="stylesheet" href="datepicker-custom.css">
+
     <link rel="stylesheet" href="globals.css">
 </head>
 
-<body>
+<body style="padding:20px;">
     <h1>ICO Globals</h1>
 
     <h2>Pagination:</h2>
@@ -36,4 +60,36 @@
             </li>
         </ul>
     </nav>
+
+
+    <br>
+    <br>
+    <br>
+
+    <h2>Dropdown:</h2>
+
+    <div style="width:500px;">
+        <select class="select" name="crypto" data-width="100%" data-size="5">
+               <option data-code="ETH" value="eth" data-tokens="ETH - Ethereum" data-content="<span class=&quot;crypto-option&quot;><i><img src=&quot;images/ethereum-icon-large.png&quot;></i>ETH - Ethereum</span>">ETH - Ethereum</option>
+                                    
+                <option data-code="BTC" value="btc" data-tokens="BTC - Bitcoin" data-content="<span class=&quot;crypto-option&quot;><i><img src=&quot;https://en.bitcoin.it/w/images/en/5/50/Bitcoin.png&quot;></i>BTC - Bitcoin</span>">BTC - Bitcoin</option>
+                                    
+        </select>
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+    <h2>Date Picker</h2>
+    
+     <div class="page-ico--datepicker">
+        <input class="page-ico--datepicker__input">
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+
 </body>

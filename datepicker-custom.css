@@ -1,0 +1,129 @@
+.datepicker.dropdown-menu {
+    background: #fff;
+    font-size: 14px;
+}
+
+.datepicker .dow {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.datepicker .day {
+    width: 34px !important;
+    height: 34px !important;
+    text-align: center;
+    padding: 4px 5px;
+    border: 5px solid transparent;
+}
+
+.datepicker .day,
+.datepicker .month,
+.datepicker .decade,
+.datepicker .year {
+    border-radius: 50%;
+    line-height: normal;
+    text-align: center;
+}
+
+.datepicker .month {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    padding-top: 0px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.datepicker .year,
+.datepicker .decade {
+    width: 45px;
+    height: 45px;
+    line-height: normal;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.datepicker thead {
+    border-bottom: 0;
+}
+
+.datepicker tbody {
+    padding: 0 25px;
+}
+
+.datepicker {
+    padding: 0 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.datepicker-days:before {
+    content: '';
+    border-bottom: 1px solid #ccc;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+}
+
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active.active:hover{
+    padding: 4px 5px;
+    border: 5px solid transparent;
+    background: #40d0ac;
+    text-shadow: unset;
+}
+
+.datepicker table tr td span.month.active,
+.datepicker table tr td span.month.active:hover {
+    padding: 4px 0;
+}
+
+.datepicker table tr td span.year.active,
+.datepicker table tr td span.decade.active {
+    padding: 10px 0;
+}
+
+.datepicker-switch {
+    color: #5f5f5f;
+    font-size: 14px;
+    font-weight: normal;
+    width: 170px;
+}
+
+.datepicker .next,
+.datepicker .prev {
+    content: '';
+    position: relative;
+    width: 34px;
+}
+
+.datepicker .next:before,
+.datepicker .prev:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-bottom-width: 8px;
+    border-top-width: 8px;
+    border-left: 8px solid #ccc;
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    left: 14px;
+}
+
+.datepicker .prev:before {
+    content: '';
+    border: 8px solid transparent;
+    border-right: 8px solid #ccc;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: 5px;
+}

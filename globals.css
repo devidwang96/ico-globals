@@ -1,51 +1,152 @@
+*{
+    box-sizing:border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*PAGINATION*/
+
 .page-ico--pagination__list {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  margin-bottom: 0;
-  text-align: center;
-  justify-content: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .page-ico--pagination__item a {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 45px;
-  height: 45px;
-  border-radius: 5px;
-  color: #3e3e3f;
-  font-weight: 500;
-  text-decoration: underline;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    color: #3e3e3f;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .page-ico--pagination__item a.dots {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 45px;
-  height: 45px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
 }
 
 .page-ico--pagination__item a:hover {
-  background: #fff;
-  color: #3e3e3f;
-  text-decoration: none;
+    background: #fff;
+    color: #3e3e3f;
+    text-decoration: none;
 }
 
 .page-ico--pagination__item.active a {
-  background: #40d0ac;
-  color: #fff;
+    background: #40d0ac;
+    color: #fff;
+}
+
+
+
+/*DROPDOWN*/
+
+.bootstrap-select .dropdown-toggle {
+    padding: 22px 41px;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8 !important;
+    background-color: #fff !important;
+    color: #444 !important;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    height: 56px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.bootstrap-select .dropdown-toggle:after {
+    content: none;
+}
+
+.bootstrap-select .dropdown-toggle:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 6px;
+    background-size: 100% 100%;
+    background-image: url(images/dropdown-arrow.png);
+}
+
+.bootstrap-select .filter-option-inner-inner {
+    line-height: 12px;
+}
+
+.bootstrap-select .crypto-option i {
+    position: absolute;
+    left: 16px;
+    top: 15px;
+    height: 21px;
+    width: 21px;
+    text-align: center;
+}
+
+.bootstrap-select .crypto-option i img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-menu > li > a {
+    padding: 10px 5px 10px 13px;
+    background-color: #fff;
+    color: #5f5f5f;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-menu > li > a:hover {
+    background-color: #40d0ac;
+    color: #fff;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-menu > li > a i {
+    left: 15px;
+    top: 8px;
+}
+
+.bootstrap-select .dropdown-menu .dropdown-menu .crypto-option {
+    padding-left: 30px;
+    top: 9px;
+}
+
+
+
+
+
+/*DATE PICKER*/
+
+.page-ico--datepicker__input {
+  background: url(images/new-images/calendar.png) no-repeat 90% 50%;
+  padding: 15px 20px;
+  font-family: 'Lato';
+  font-size: 16px;
+  color: #3e3e3f;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
 }
