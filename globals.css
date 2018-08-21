@@ -155,6 +155,9 @@ ul{
 
 
 /*CHECKBOX*/
+.page-ico--checkbox{
+	position:relative;
+}
 
 .page-ico--checkbox__input {
 	display: none;
